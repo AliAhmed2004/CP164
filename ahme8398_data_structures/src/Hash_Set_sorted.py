@@ -5,7 +5,7 @@ Array-based list version of the Hash Set ADT.
 Author:  David Brown
 ID:      999999999
 Email:   dbrown@wlu.ca
-__updated__ = "2023-04-01"
+__updated__ = "2023-04-02"
 -------------------------------------------------------
 """
 # pylint: disable=protected-access
@@ -121,11 +121,11 @@ class Hash_Set:
         if not self._table[slot].is_empty():
             i = self._table[slot].index(value)
             if i == -1:
-                self._table[slot].append(value)
+                self._table[slot].insert(value)
                 self._count += 1
                 inserted = True
         else:
-            self._table[slot].append(value)
+            self._table[slot].insert(value)
             self._count += 1
             inserted = True
         if self._count / self._capacity > self._LOAD_FACTOR:

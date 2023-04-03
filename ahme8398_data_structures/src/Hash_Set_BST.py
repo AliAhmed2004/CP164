@@ -5,7 +5,7 @@ Array-based list version of the Hash Set ADT.
 Author:  David Brown
 ID:      999999999
 Email:   dbrown@wlu.ca
-__updated__ = "2023-04-01"
+__updated__ = "2023-04-02"
 -------------------------------------------------------
 """
 # pylint: disable=protected-access

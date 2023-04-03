@@ -5,14 +5,14 @@ Array-based list version of the Hash Set ADT.
 Author:  David Brown
 ID:      999999999
 Email:   dbrown@wlu.ca
-__updated__ = "2023-04-02"
+__updated__ = "2023-04-01"
 -------------------------------------------------------
 """
 # pylint: disable=protected-access
 
 # Imports
 # Use any appropriate data structure here.
-from List_array import List
+from Sorted_List_array import Sorted_List
 
 # Constants
 SEP = '-' * 40
@@ -44,7 +44,7 @@ class Hash_Set:
 
         # Define the empty table.
         for _ in range(self._capacity):
-            self._table.append(List())
+            self._table.append(Sorted_List())
 
     def __len__(self):
         """
@@ -81,7 +81,9 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        hashkey = hash(key) % self._capacity
+        slot = self._table[hashkey]
+        return slot
 
     def __contains__(self, key):
         """
@@ -96,7 +98,8 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        slot = self._find_slot(key)
+        return key in slot
 
     def insert(self, value):
         """
@@ -141,8 +144,9 @@ class Hash_Set:
             value - if it exists in the Hash Set, None otherwise.
         -------------------------------------------------------
         """
-        # your code here
-        return
+        slot = self._find_slot(key)
+        value = slot.find(key)
+        return value
 
     def remove(self, key):
         """
@@ -182,7 +186,7 @@ class Hash_Set:
         self._capacity = (2 * self._capacity) + 1
         new_table = []
         for _ in range(self._capacity):
-            new_table.append(List())
+            new_table.append(Sorted_List())
         for slots in self._table:
             for value in slots:
                 crypt = hash(value) % self._capacity

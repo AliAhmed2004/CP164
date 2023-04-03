@@ -12,7 +12,7 @@ __updated__ = "2023-04-02"
 
 # Imports
 # Use any appropriate data structure here.
-from List_array import List
+from BST_linked import BST
 
 # Constants
 SEP = '-' * 40
@@ -44,7 +44,7 @@ class Hash_Set:
 
         # Define the empty table.
         for _ in range(self._capacity):
-            self._table.append(List())
+            self._table.append(BST())
 
     def __len__(self):
         """
@@ -81,7 +81,9 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        hashkey = hash(key) % self._capacity
+        slot = self._table[hashkey]
+        return slot
 
     def __contains__(self, key):
         """
@@ -96,7 +98,8 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        slot = self._find_slot(key)
+        return key in slot
 
     def insert(self, value):
         """
@@ -118,11 +121,11 @@ class Hash_Set:
         if not self._table[slot].is_empty():
             i = self._table[slot].index(value)
             if i == -1:
-                self._table[slot].append(value)
+                self._table[slot].insert(value)
                 self._count += 1
                 inserted = True
         else:
-            self._table[slot].append(value)
+            self._table[slot].insert(value)
             self._count += 1
             inserted = True
         if self._count / self._capacity > self._LOAD_FACTOR:
@@ -141,8 +144,9 @@ class Hash_Set:
             value - if it exists in the Hash Set, None otherwise.
         -------------------------------------------------------
         """
-        # your code here
-        return
+        slot = self._find_slot(key)
+        value = slot.find(key)
+        return value
 
     def remove(self, key):
         """
@@ -182,7 +186,7 @@ class Hash_Set:
         self._capacity = (2 * self._capacity) + 1
         new_table = []
         for _ in range(self._capacity):
-            new_table.append(List())
+            new_table.append(BST())
         for slots in self._table:
             for value in slots:
                 crypt = hash(value) % self._capacity
