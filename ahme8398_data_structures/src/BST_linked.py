@@ -525,7 +525,12 @@ class BST:
         assert self._root is not None, "Cannot find maximum of an empty BST"
 
         # your code here
-
+        value = None
+        current = self._root
+        while current is not None:
+            value = current._value
+            current = current._right
+        return value
 
     def max_r(self):
         """
