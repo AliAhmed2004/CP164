@@ -1,0 +1,55 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-02-07
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Testing for array to list
+Enter elements for source list (seperated by commas): 1,2,3,4,5
+Array to list: [1, 2, 3, 4, 5]
+
+Testing for list to array
+Enter elements for source list (separated by commas): 1,2,3,4,5
+Enter elements for target list (separated by commas): 3,5
+Target list: [3, 5]
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+Testing removed value: Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+
+Testing empty value: None
+
+Testing count value: 1
+
+Testing max value: Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama
+
+Testing min value: Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+
+Value at index: 0
+
+Returned value: Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+-------------------------------------------------------

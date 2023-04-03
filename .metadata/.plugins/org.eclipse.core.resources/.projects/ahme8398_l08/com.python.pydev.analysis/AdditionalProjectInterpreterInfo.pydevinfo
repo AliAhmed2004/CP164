@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_l08\com.python.pydev.analysis\v2_indexcache
+t01|1678928750847576400|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t01.py
+t03|1679084858512433500|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t03.py
+t02|1678928966929072900|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t02.py
+t05|1679085570442419900|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t05.py
+t04|1679085815196731400|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t04.py
+t06|1679086695218730400|C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+5=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t03.py
+12=t01
+6=t03
+10=t02
+4=t05
+8=t04
+2=t06
+1=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t06.py
+11=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t01.py
+9=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t02.py
+3=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t05.py
+7=C:\Users\mailm\eclipse\CP164\ahme8398_l08\src\t04.py
+-- END DICTIONARY
+-- START TREE 1
+13
+a|4|a!1^17#1*19@a!3^16#1*35@a!5^16#1*51@a!7^16#1*67@
+b|4|b!7^17#1*67@b!5^17#1*51@b!1^18#1*19@b!3^17#1*35@
+bl1|2|bl1!9^26#1*83@bl1!11^26#1*99@
+bl2|2|bl2!9^27#1*83@bl2!11^27#1*99@
+bst|4|bst!7^20#1*67@bst!5^20#1*51@bst!1^21#1*19@bst!3^20#1*35@
+c|4|c!3^18#1*35@c!1^19#1*19@c!7^18#1*67@c!5^18#1*51@
+cod|4|code2!9^24#1*83@code2!11^24#1*99@code1!9^19#1*83@code1!11^19#1*99@
+dec|1|decoded!1^27#1*19@
+let|4|letter1!11^18#1*99@letter1!9^18#1*83@letter2!9^23#1*83@letter2!11^23#1*99@
+res|1|result!3^25#1*35@
+tex|2|text!3^24#1*35@text!1^25#1*19@
+v|2|v!7^25#1*67@v!5^25#1*51@
+val|4|values!1^22#1*19@values!3^21#1*35@values!7^22#1*67@values!5^22#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

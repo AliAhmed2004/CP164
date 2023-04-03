@@ -1,0 +1,43 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_l06\com.python.pydev.analysis\v2_indexcache
+t01|1677629726697065400|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t01.py
+t03|1676938311875338700|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t03.py
+t02|1677137663407073300|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t02.py
+t05|1676939476376872600|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t05.py
+t04|1676938733008668900|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t04.py
+t06|1676939777231645600|C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+5=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t06.py
+12=t01
+2=t03
+10=t02
+8=t05
+4=t04
+6=t06
+3=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t04.py
+7=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t05.py
+1=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t03.py
+9=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t02.py
+11=C:\Users\mailm\eclipse\CP164\ahme8398_l06\src\t01.py
+-- END DICTIONARY
+-- START TREE 1
+12
+cou|1|count!1^35#1*19@
+i|1|i!3^32#1*35@
+ind|1|index!5^29#1*51@
+inp|3|input_list!3^17#1*35@input_list!1^18#1*19@input_list!7^18#1*67@
+key|4|key!3^24#1*35@key!7^23#1*67@key!9^24#1*83@key!1^34#1*19@
+lst|7|lst!1^16#1*19@lst!3^15#1*35@lst_values!5^17#1*51@lst!7^16#1*67@lst!5^15#1*51@lst!11^18#1*99@lst!9^16#1*83@
+max|1|max_value!1^25#1*19@
+min|1|min_value!1^28#1*19@
+mov|6|movie_list!9^38#1*83@movie_list!5^45#1*51@movie_list!11^62#1*99@movie_list!7^46#1*67@movie_list!1^41#1*19@movie_list!3^47#1*35@
+rem|1|removed_value!7^25#1*67@
+use|1|user_input!11^20#5*99@
+val|3|value!3^25#1*35@value!9^19#5*83@value!5^36#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

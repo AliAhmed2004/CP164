@@ -1,0 +1,37 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_a09\com.python.pydev.analysis\v2_indexcache
+functions|1680471242945737800|C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\functions.py
+t01|1680471247666774400|C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t01.py
+t03|1680379507110693100|C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t03.py
+t02|1680384593989815800|C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t02.py
+t04|1680380213330970800|C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+5=C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t03.py
+7=C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t02.py
+1=C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t04.py
+4=functions
+10=t01
+9=C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\t01.py
+6=t03
+8=t02
+2=t04
+3=C:\Users\mailm\eclipse\CP164\ahme8398_a09\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+9
+arr|1|arr!1^15#1*19@
+b|1|b!1^35#1*19@
+bst|1|bst!1^17#1*19@
+com|1|comparison_total!3^42#5*34@
+fv|3|fv!5^16#1*51@fv!7^16#1*67@fv!9^16#1*83@
+has|1|hash_set!9^17#1*83@
+hs|1|hs!5^17#1*51@
+ins|1|insert_words!3^16#5*34@
+sor|1|sorted_hash_set!7^17#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,35 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_a02\com.python.pydev.analysis\v2_indexcache
+t01|1674963793762313400|C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t01.py
+t03|1674965610655084100|C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t03.py
+t02|1674964196205783400|C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t02.py
+t05|1674966839373695400|C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t05.py
+t04|1674966437655028500|C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+1=C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t05.py
+10=t01
+6=t03
+8=t02
+2=t05
+4=t04
+7=C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t02.py
+9=C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t01.py
+3=C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t04.py
+5=C:\Users\mailm\eclipse\CP164\ahme8398_a02\src\t03.py
+-- END DICTIONARY
+-- START TREE 1
+7
+cou|1|counts!1^29#1*19@
+dir|5|director!3^23#9*35@director!1^23#9*19@director!5^22#9*51@director!7^22#9*67@director!9^23#9*83@
+gen|7|genre_code!5^29#1*51@genres!7^24#9*67@genres!5^24#9*51@genres!3^25#9*35@genres!1^25#9*19@genres!9^25#9*83@genre_codes!3^30#1*35@
+mov|18|movie!7^25#9*67@movie_rating!7^30#1*67@movie_codes!3^32#1*35@movie!5^25#9*51@movie_code!5^31#1*51@movie!1^26#9*19@movie!3^26#9*35@movie_data!9^20#9*83@movies!1^17#1*19@movie_data!7^19#9*67@movies!3^17#1*35@movies!5^16#1*51@movie_data!3^20#9*35@movie_data!5^19#9*51@movie_data!1^20#9*19@movies!7^16#1*67@movies!9^17#1*83@movie!9^26#9*83@
+rat|6|rating!7^23#9*67@rating!9^24#9*83@rating!1^24#9*19@rating!5^23#9*51@rating!3^24#9*35@rating_title!7^32#1*67@
+tit|5|title!1^21#9*19@title!3^21#9*35@title!9^21#9*83@title!7^20#9*67@title!5^20#9*51@
+yea|7|year!5^21#9*51@year_movies_titles!9^33#1*83@year!3^22#9*35@year!1^22#9*19@year!9^22#9*83@year_movies!9^31#1*83@year!7^21#9*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

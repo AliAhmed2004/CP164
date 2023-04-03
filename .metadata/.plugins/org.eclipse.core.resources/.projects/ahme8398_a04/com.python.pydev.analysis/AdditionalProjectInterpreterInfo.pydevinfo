@@ -1,0 +1,48 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_a04\com.python.pydev.analysis\v2_indexcache
+functions|1676099620148285700|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\functions.py
+t01|1676097169413541600|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t01.py
+t03|1676100480539131900|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t03.py
+t02|1676098538007364300|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t02.py
+t05|1676099050397379700|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t05.py
+t04|1676094936205477400|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t04.py
+t06|1676153140667995200|C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+12=functions
+1=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t01.py
+3=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t02.py
+2=t01
+11=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\functions.py
+14=t03
+4=t02
+6=t05
+10=t04
+8=t06
+9=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t04.py
+13=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t03.py
+5=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t05.py
+7=C:\Users\mailm\eclipse\CP164\ahme8398_a04\src\t06.py
+-- END DICTIONARY
+-- START TREE 1
+14
+emp|1|empty!1^32#1*19@
+equ|1|equals!3^28#1*35@
+ful|1|full!1^33#1*19@
+key|2|key!5^24#1*51@key!7^23#1*67@
+n|2|n!7^17#1*67@n!5^16#1*51@
+num|4|num2!9^26#1*83@num1!9^19#1*83@num_values!3^19#1*35@num_values!1^19#1*19@
+pee|1|peek!1^42#1*19@
+pq|1|pq!7^15#1*67@
+pq_|1|pq_split_key!11^45#5*98@
+que|1|queue_combine!11^17#5*98@
+rem|1|remove!1^37#5*19@
+sou|11|source!5^18#1*51@source1_values!13^17#1*115@source1!13^18#1*115@source_value!3^22#5*35@source2_values!13^23#1*115@source!1^16#1*19@source2!9^16#1*83@source!3^15#1*35@source_len!1^34#1*19@source2!13^24#1*115@source1!9^15#1*83@
+tar|4|target!3^16#1*35@target!9^17#1*83@target!13^28#1*115@target_value!3^25#5*35@
+val|5|value!13^32#5*115@value!9^21#5*83@value!7^20#5*67@value!1^23#5*19@value!5^21#5*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

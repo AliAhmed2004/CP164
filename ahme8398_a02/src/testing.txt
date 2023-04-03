@@ -1,0 +1,59 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-01-28
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Enter the year: 2007
+['I Am Legend', 'Stardust', 'Juno', 'Darjeeling Limited, The']
+
+Enter the year: 1971
+['Omega Man, The']
+
+Enter the year: 1964
+['Zulu', 'Last Man On Earth, The', 'Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The']
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter the rating: 5.2
+['Dellamorte Dellamore', 'Dark City', 'Zulu', 'I Am Legend', 'Omega Man, The', 'Last Man On Earth, The', 'Alphaville', 'Stardust', 'Juno', 'Darjeeling Limited, The', 'Broken Flowers', 'Star Wars: Episode IV - A New Hope', 'Horror of Dracula', 'Jason and the Argonauts', 'Wrong Box, The', 'Finding Dory', 'Z', 'Wonder Woman', 'Zulu']
+
+Enter the rating: 7.2
+['Dellamorte Dellamore', 'Dark City', 'Zulu', 'Stardust', 'Juno', 'Broken Flowers', 'Star Wars: Episode IV - A New Hope', 'Horror of Dracula', 'Jason and the Argonauts', 'Finding Dory', 'Z', 'Wonder Woman']
+
+Enter the rating: 8.0
+['Star Wars: Episode IV - A New Hope', 'Z', 'Wonder Woman']
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter the genre code number (1 to 9): 1
+['Stardust', 'Jason and the Argonauts', 'Wonder Woman']
+
+Enter the genre code number (1 to 9): 4
+['Dellamorte Dellamore', 'Alphaville', 'Stardust', 'Juno', 'Darjeeling Limited, The', 'Broken Flowers', 'Wrong Box, The', 'Finding Dory']
+
+Enter the genre code number (1 to 9): 6
+['I Am Legend', 'Omega Man, The', 'Star Wars: Episode IV - A New Hope', 'Jason and the Argonauts', 'Wonder Woman']
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter the genre code numbers (1 to 9) separated by commas: 1,6
+['Jason and the Argonauts', 'Wonder Woman']
+
+Enter the genre code numbers (1 to 9) separated by commas: 0,6
+['I Am Legend', 'Omega Man, The', 'Star Wars: Episode IV - A New Hope']
+
+Enter the genre code numbers (1 to 9) separated by commas: 3,4,5,8
+['Dellamorte Dellamore']
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+[6, 3, 2, 3, 8, 1, 5, 0, 4, 1, 0]
+-------------------------------------------------------

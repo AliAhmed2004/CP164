@@ -1,0 +1,236 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-03-25
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+--__eq__--
+BST 1 contents: 
+11
+24
+13
+67
+25
+73
+BST 2 contents:
+12
+1
+36
+24
+54
+
+Are both BSTs equal?  False
+
+--is_balanced--
+Is BST balanced?  False
+
+--is_valid--
+Is BST valid?  True
+
+--min--
+Min value in BST:  11
+
+--leaf_count--
+Number of leaves in BST:  3
+
+--one_child_count--
+One child count:  1
+
+--two_child_count--
+Two child count:  2
+
+--inorder--
+Inorder traversal:
+11
+13
+24
+25
+67
+73
+
+--preorder--
+Preorder traversal:
+11
+24
+13
+67
+25
+73
+
+--postorder--
+Postorder traversal:
+13
+25
+73
+67
+24
+11
+
+--remove--
+Key:  11
+BST after removing:
+24
+13
+67
+25
+73
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Inserting A ... 0 comparisons.
+Inserting B ... 2 comparisons.
+Inserting C ... 4 comparisons.
+Inserting D ... 6 comparisons.
+Inserting E ... 8 comparisons.
+Inserting F ... 10 comparisons.
+Inserting G ... 12 comparisons.
+Inserting H ... 14 comparisons.
+Inserting I ... 16 comparisons.
+Inserting J ... 18 comparisons.
+Inserting K ... 20 comparisons.
+Inserting L ... 22 comparisons.
+Inserting M ... 24 comparisons.
+Inserting N ... 26 comparisons.
+Inserting O ... 28 comparisons.
+Inserting P ... 30 comparisons.
+Inserting Q ... 32 comparisons.
+Inserting R ... 34 comparisons.
+Inserting S ... 36 comparisons.
+Inserting T ... 38 comparisons.
+Inserting U ... 40 comparisons.
+Inserting V ... 42 comparisons.
+Inserting W ... 44 comparisons.
+Inserting X ... 46 comparisons.
+Inserting Y ... 48 comparisons.
+Inserting Z ... 50 comparisons.
+Inserting M ... 0 comparisons.
+Inserting F ... 1 comparisons.
+Inserting T ... 2 comparisons.
+Inserting C ... 2 comparisons.
+Inserting J ... 3 comparisons.
+Inserting P ... 3 comparisons.
+Inserting W ... 4 comparisons.
+Inserting A ... 3 comparisons.
+Inserting D ... 4 comparisons.
+Inserting H ... 4 comparisons.
+Inserting K ... 5 comparisons.
+Inserting N ... 4 comparisons.
+Inserting R ... 5 comparisons.
+Inserting U ... 5 comparisons.
+Inserting Y ... 6 comparisons.
+Inserting B ... 5 comparisons.
+Inserting E ... 6 comparisons.
+Inserting I ... 6 comparisons.
+Inserting G ... 5 comparisons.
+Inserting L ... 7 comparisons.
+Inserting O ... 6 comparisons.
+Inserting Q ... 6 comparisons.
+Inserting S ... 7 comparisons.
+Inserting V ... 7 comparisons.
+Inserting X ... 7 comparisons.
+Inserting Z ... 8 comparisons.
+Inserting E ... 0 comparisons.
+Inserting T ... 2 comparisons.
+Inserting A ... 1 comparisons.
+Inserting O ... 3 comparisons.
+Inserting I ... 4 comparisons.
+Inserting N ... 6 comparisons.
+Inserting S ... 5 comparisons.
+Inserting H ... 5 comparisons.
+Inserting R ... 6 comparisons.
+Inserting D ... 3 comparisons.
+Inserting L ... 7 comparisons.
+Inserting U ... 4 comparisons.
+Inserting C ... 4 comparisons.
+Inserting M ... 9 comparisons.
+Inserting P ... 7 comparisons.
+Inserting F ... 6 comparisons.
+Inserting Y ... 6 comparisons.
+Inserting W ... 7 comparisons.
+Inserting G ... 8 comparisons.
+Inserting B ... 5 comparisons.
+Inserting V ... 8 comparisons.
+Inserting K ... 8 comparisons.
+Inserting J ... 9 comparisons.
+Inserting X ... 9 comparisons.
+Inserting Z ... 8 comparisons.
+Inserting Q ... 9 comparisons.
+Comparing by order: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Total Comparisons: 31,250,770
+----------------------------------------------
+Comparing by order: MFTCJPWADHKNRUYBEIGLOQSVXZ
+Total Comparisons: 9,645,842
+----------------------------------------------
+Comparing by order: ETAOINSHRDLUCMPFYWGBVKJXZQ
+Total Comparisons: 8,856,087
+----------------------------------------------
+
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Inserting A ... 0 comparisons.
+Inserting B ... 2 comparisons.
+Inserting C ... 4 comparisons.
+Inserting D ... 6 comparisons.
+Inserting E ... 8 comparisons.
+Inserting F ... 10 comparisons.
+Inserting G ... 12 comparisons.
+Inserting H ... 14 comparisons.
+Inserting I ... 16 comparisons.
+Inserting J ... 18 comparisons.
+Inserting K ... 20 comparisons.
+Inserting L ... 22 comparisons.
+Inserting M ... 24 comparisons.
+Inserting N ... 26 comparisons.
+Inserting O ... 28 comparisons.
+Inserting P ... 30 comparisons.
+Inserting Q ... 32 comparisons.
+Inserting R ... 34 comparisons.
+Inserting S ... 36 comparisons.
+Inserting T ... 38 comparisons.
+Inserting U ... 40 comparisons.
+Inserting V ... 42 comparisons.
+Inserting W ... 44 comparisons.
+Inserting X ... 46 comparisons.
+Inserting Y ... 48 comparisons.
+Inserting Z ... 50 comparisons.
+Letter Count/Percent Table
+ 
+Total Count: 1,281,204
+ 
+Letter  Count        %
+----------------------
+    A  99249    7.75 %
+    B  18031    1.41 %
+    C  40008    3.12 %
+    D  50924    3.97 %
+    E 168374   13.14 %
+    F  36256    2.83 %
+    G  18844    1.47 %
+    H  70753    5.52 %
+    I  95763    7.47 %
+    J   1920    0.15 %
+    K   3063    0.24 %
+    L  43138    3.37 %
+    M  32809    2.56 %
+    N  87437    6.82 %
+    O  97241    7.59 %
+    P  28579    2.23 %
+    Q   1741    0.14 %
+    R  81236    6.34 %
+    S  86167    6.73 %
+    T 122887    9.59 %
+    U  37289    2.91 %
+    V  14967    1.17 %
+    W  19734    1.54 %
+    X   4197    0.33 %
+    Y  19775    1.54 %
+    Z    822    0.06 %
+-------------------------------------------------------

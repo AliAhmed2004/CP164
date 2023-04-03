@@ -1,0 +1,290 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-01-28
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+How many values do you want to insert into the queue? 3
+
+Enter the values:
+Enter value 1: 1
+Enter value 2: 2
+Enter value 3: 3
+
+Values in the queue:
+1
+2
+3
+
+Removed value: 1
+Is source empty?: False
+
+Is source full?: True
+
+Length of source: 3
+
+How many values do you want to insert into the queue? 5
+
+Enter the values:
+Enter value 1: 3
+Enter value 2: 4
+Enter value 3: 6
+Enter value 4: 7
+Enter value 5: 5
+
+Values in the queue:
+3
+4
+6
+7
+5
+
+Removed value: 3
+Is source empty?: False
+
+Is source full?: True
+
+Length of source: 5
+
+How many values do you want to insert into the queue? 7
+
+Enter the values:
+Enter value 1: 9
+Enter value 2: 8
+Enter value 3: 7
+Enter value 4: 6
+Enter value 5: 5
+Enter value 6: 4
+Enter value 7: 3
+
+Values in the queue:
+9
+8
+7
+6
+5
+4
+3
+
+Removed value: 9
+Is source empty?: False
+
+Is source full?: True
+
+Length of source: 7
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+How many values do you want to insert into the queue for source and target?: 4
+Enter value for source queue 1: 1
+Enter value for target queue 1: 1
+Enter value for source queue 2: 2
+Enter value for target queue 2: 2
+Enter value for source queue 3: 3
+Enter value for target queue 3: 3
+Enter value for source queue 4: 4
+Enter value for target queue 4: 4
+Is source and target equal?: True
+
+How many values do you want to insert into the queue for source and target?: 4
+Enter value for source queue 1: 1
+Enter value for target queue 1: 1
+Enter value for source queue 2: 2
+Enter value for target queue 2: 2
+Enter value for source queue 3: 3
+Enter value for target queue 3: 4
+Enter value for source queue 4: 4
+Enter value for target queue 4: 4
+Is source and target equal?: False
+
+How many values do you want to insert into the queue for source and target?: 1
+Enter value for source queue 1: 1
+Enter value for target queue 1: 2
+Is source and target equal?: False
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter values for first queue (separated by commas):
+5, 8, 12, 8
+Enter values for second queue (separated by commas):
+7, 9, 14
+Values in target queue:
+5, 7, 8, 9, 12, 14, 8
+
+Enter values for first queue (separated by commas):
+1, 2, 3
+Enter values for second queue (separated by commas):
+4, 5, 6
+Values in target queue:
+1, 4, 2, 5, 3, 6
+
+Enter values for first queue (separated by commas):
+1, 3, 5, 7
+Enter values for second queue (separated by commas):
+2, 4, 6, 8
+Values in target queue:
+1, 2, 3, 4, 5, 6, 7, 8
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter the number of elements for source1: 3
+Enter a value for source1: 1
+Enter a value for source1: 2
+Enter a value for source1: 3
+ 
+Enter the number of elements for source2: 3
+Enter a value for source2: 4
+Enter a value for source2: 5
+Enter a value for source2: 6
+ 
+Target:
+1 4 2 5 3 6 
+
+Enter the number of elements for source1: 2
+Enter a value for source1: 1
+Enter a value for source1: 2
+ 
+Enter the number of elements for source2: 3
+Enter a value for source2: 4
+Enter a value for source2: 5
+Enter a value for source2: 6
+ 
+Target:
+1 4 2 5 6 
+
+Enter the number of elements for source1: 3
+Enter a value for source1: 9
+Enter a value for source1: 8
+Enter a value for source1: 6
+ 
+Enter the number of elements for source2: 5
+Enter a value for source2: 1
+Enter a value for source2: 2
+Enter a value for source2: 3
+Enter a value for source2: 4
+Enter a value for source2: 5
+ 
+Target:
+9 1 8 2 6 3 4 5 
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+How many values do you want to insert into the source priority queue?: 4
+Enter value for source priority queue 1: 3
+Enter value for source priority queue 2: 4
+Enter value for source priority queue 3: 5
+Enter value for source priority queue 4: 6
+Enter the key to split the source priority queue: 4
+ 
+Values in target1:
+5
+6
+ 
+Values in target2:
+3
+4
+
+How many values do you want to insert into the source priority queue?: 5
+Enter value for source priority queue 1: 6
+Enter value for source priority queue 2: 7
+Enter value for source priority queue 3: 8
+Enter value for source priority queue 4: 9
+Enter value for source priority queue 5: 2
+Enter the key to split the source priority queue: 8
+ 
+Values in target1:
+9
+ 
+Values in target2:
+2
+6
+7
+8
+
+How many values do you want to insert into the source priority queue?: 3
+Enter value for source priority queue 1: 1
+Enter value for source priority queue 2: 2
+Enter value for source priority queue 3: 3
+Enter the key to split the source priority queue: 3
+ 
+Values in target1:
+ 
+Values in target2:
+1
+2
+3
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+How many values do you want to insert into the source priority queue?: 10
+Enter value for source priority queue 1: 1
+Enter value for source priority queue 2: 2
+Enter value for source priority queue 3: 3
+Enter value for source priority queue 4: 4
+Enter value for source priority queue 5: 5
+Enter value for source priority queue 6: 6
+Enter value for source priority queue 7: 7
+Enter value for source priority queue 8: 8
+Enter value for source priority queue 9: 9
+Enter value for source priority queue 10: 10
+Enter the key to split the source priority queue: 5
+
+Values in target1:
+10
+9
+8
+7
+6
+
+Values in target2:
+5
+4
+3
+2
+1
+
+How many values do you want to insert into the source priority queue?: 5
+Enter value for source priority queue 1: 1
+Enter value for source priority queue 2: 2
+Enter value for source priority queue 3: 3
+Enter value for source priority queue 4: 4
+Enter value for source priority queue 5: 5
+Enter the key to split the source priority queue: 4
+
+Values in target1:
+5
+
+Values in target2:
+4
+3
+2
+1
+
+How many values do you want to insert into the source priority queue?: 7
+Enter value for source priority queue 1: 8
+Enter value for source priority queue 2: 6
+Enter value for source priority queue 3: 2
+Enter value for source priority queue 4: 4
+Enter value for source priority queue 5: 6
+Enter value for source priority queue 6: 8
+Enter value for source priority queue 7: 3
+Enter the key to split the source priority queue: 6
+
+Values in target1:
+8
+8
+
+Values in target2:
+6
+6
+4
+3
+2
+-------------------------------------------------------

@@ -1,0 +1,26 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_a05\com.python.pydev.analysis\v2_indexcache
+t01|1676850215665361200|C:\Users\mailm\eclipse\CP164\ahme8398_a05\src\t01.py
+t02|1676854624257294200|C:\Users\mailm\eclipse\CP164\ahme8398_a05\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=C:\Users\mailm\eclipse\CP164\ahme8398_a05\src\t01.py
+2=t01
+4=t02
+3=C:\Users\mailm\eclipse\CP164\ahme8398_a05\src\t02.py
+-- END DICTIONARY
+-- START TREE 1
+7
+equ|2|equal!1^26#1*19@equal!3^26#1*35@
+key|3|key2!1^240#1*19@key1!1^239#1*19@key!3^133#1*35@
+mov|10|movie_list!3^16#1*35@movie_list2!1^130#1*19@movie2!1^24#1*19@movie_list2!3^56#1*35@movie_list!1^16#1*19@movie1!3^23#1*35@movie1!1^23#1*19@movie_list1!1^115#1*19@movie2!3^24#1*35@movie_list1!3^55#1*35@
+n|1|n!3^254#1*35@
+new|1|new_movie!1^39#1*19@
+tar|6|target1!3^77#1*35@target!3^57#1*35@target2!1^268#1*19@target2!3^78#1*35@target!1^144#1*19@target1!1^267#1*19@
+val|1|value!3^230#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

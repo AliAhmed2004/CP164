@@ -1,0 +1,283 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-02-23
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+--TEST WITH INTEGERS--
+Test append
+Enter a value to append (or 'x' to exit): 1
+Enter a value to append (or 'x' to exit): 2
+Enter a value to append (or 'x' to exit): 3
+Enter a value to append (or 'x' to exit): 4
+Enter a value to append (or 'x' to exit): x
+1
+2
+3
+4
+ 
+Test prepend
+Enter a value to prepend (or 'x' to exit): 1
+Enter a value to prepend (or 'x' to exit): 2
+Enter a value to prepend (or 'x' to exit): 3
+Enter a value to prepend (or 'x' to exit): 4
+Enter a value to prepend (or 'x' to exit): x
+4
+3
+2
+1
+
+Test insert
+Enter an index and a value to insert (or 'x' to exit): 0 1
+Enter an index and a value to insert (or 'x' to exit): 2 3
+Enter an index and a value to insert (or 'x' to exit): 1 4
+Enter an index and a value to insert (or 'x' to exit): x
+1
+4
+3
+
+--TEST WITH MOVIE DATA--
+Test append
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Test prepend
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+
+Test insert
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+Zulu|2013|Jerome Salle|6.7|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+--TEST WITH INTEGERS--
+Enter a value (or 'x' to exit): 2
+Enter a value (or 'x' to exit): 4
+Enter a value (or 'x' to exit): 5
+Enter a value (or 'x' to exit): 6
+Enter a value (or 'x' to exit): x
+Enter a key to search for: 5
+Key found at index [2] = 5
+ 
+--TEST WITH MOVIE DATA--
+Original list:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Key found at index [4] = Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+--TEST WITH INTEGERS--
+Enter a list of integers separated by spaces: 1 2 3 4 5
+
+Test max and min
+Maximum value in the list =  5
+Minimum value in the list =  1
+
+Test count
+Enter a value to count in the list: 2
+Number of times 2 is in the list: 0
+
+--TEST WITH MOVIE DATA--
+Movie list:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Test max and min
+Maximum value in the list =  Z|1969|Costa-Gavras|8.2|2
+Minimum value in the list =  Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+
+Test count
+Key = Wrong Box, The|1966|Bryan Forbes|7.0|4
+Number of times key is in the list: 2
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter a list of integers separated by spaces: 2 4 3 6 
+
+Test find
+Enter a key to find: 4 
+Value = 4
+
+Test index
+Enter a key to find its index: 3
+Index found = [2]
+
+Test __contains__
+Enter a key to check if it exists in the list: 5
+5 does not exist in the list
+
+--TEST WITH MOVIE DATA--
+Movie list:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Test find
+Key = Horror of Dracula|1958|Terence Fisher|7.4|8
+Value = Horror of Dracula|1958|Terence Fisher|7.4|8
+
+Test index
+Key = Z|1969|Costa-Gavras|8.2|2
+Index found = [2]
+
+Test __contains__
+Key = Zulu|2013|Jerome Salle|6.7|2
+'Zulu|2013|Jerome Salle|6.7|2' exists in the list
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Test remove
+Enter a list of integers separated by spaces: 2 5 7 2
+Enter a key to remove: 2
+Removed value = 2
+Updated list:
+5
+7
+2
+
+Test peek
+Enter a list of integers separated by spaces: 3 4 2 5
+Peeked value =  3
+
+--TEST WITH MOVIE DATA--
+Test remove
+Movie list:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Removed value = Z|1969|Costa-Gavras|8.2|2
+
+Updated list:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Enter a list of integers separated by spaces: 3 6 8 9 2
+Original List:
+3
+6
+8
+9
+2
+
+Test __getitem__
+Enter an index to get: 3
+Value at index 3 : 9
+
+Test __setitem__
+Enter an index to set: 2
+Enter a value to set: 2
+New List:
+3
+6
+2
+9
+2
+
+--TEST WITH MOVIE DATA--
+Original List:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+Test __getitem__
+Value at index 5 : Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+
+Test __setitem__
+Set value at index 5 to: Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+
+New List:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+-------------------------------------------------------

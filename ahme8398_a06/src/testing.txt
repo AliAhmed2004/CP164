@@ -1,0 +1,939 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-03-11
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Input queue below will be used to test all functions.
+Enter values to queue, separated by commas: 1,2,3,4,5,6
+ 
+--insert--
+Queue after insert:
+1
+2
+3
+4
+5
+6
+ 
+--is_empty--
+Empty: False
+ 
+--remove--
+Queue after remove:
+2
+3
+4
+5
+6
+ 
+--peek--
+Queue after peek:
+2
+3
+4
+5
+6
+ 
+--_move_front_to_rear--
+Target queue before _move_front_to_rear:
+1
+2
+3
+ 
+Queue after _move_front_to_rear:
+2
+3
+4
+5
+6
+1
+
+--_append_queue--
+Enter values to append into queue-2, separated by commas: 7,8,9,10,11,12
+Queue after _append_queue:
+2
+3
+4
+5
+6
+1
+7
+8
+9
+10
+11
+12
+
+--combine--
+Enter values to append into queue-2, separated by commas: 1,2,3,4,5
+Final queue after combine:
+2
+1
+3
+
+Target 1 after split_alt:
+
+Target 2 after split_alt:
+
+__eq__
+Enter values to append into queue-2, separated by commas: 1,2,3,4,5
+Equal: False
+
+Input queue below will be used to test all functions.
+Enter values to queue, separated by commas: 10,9,8,7,5,4,3,2,1
+ 
+--insert--
+Queue after insert:
+10
+9
+8
+7
+5
+4
+3
+2
+1
+ 
+--is_empty--
+Empty: False
+
+--remove--
+Queue after remove:
+9
+8
+7
+5
+4
+3
+2
+1
+
+--peek--
+Queue after peek:
+9
+8
+7
+5
+4
+3
+2
+1
+
+--_move_front_to_rear--
+Target queue before _move_front_to_rear:
+1
+2
+3
+
+Queue after _move_front_to_rear:
+9
+8
+7
+5
+4
+3
+2
+1
+1
+
+--_append_queue--
+Enter values to append into queue-2, separated by commas: 2,4,6,8,10
+Queue after _append_queue:
+9
+8
+7
+5
+4
+3
+2
+1
+1
+2
+4
+6
+8
+10
+
+--combine--
+Enter values to append into queue-2, separated by commas: 1,2,3,4,5
+Final queue after combine:
+9
+1
+8
+2
+7
+3
+5
+4
+4
+5
+3
+2
+1
+1
+2
+4
+6
+8
+10
+
+--split_alt--
+Target 2 before split_alt:
+1
+2
+3
+
+Target 1 after split_alt:
+
+Target 2 after split_alt:
+
+__eq__
+Enter values to append into queue-2, separated by commas: 1,2
+Equal: False
+
+Input queue below will be used to test all functions.
+Enter values to queue, separated by commas: 1,3,5,7,9,11,13,15,17
+ 
+--insert--
+Queue after insert:
+1
+3
+5
+7
+9
+11
+13
+15
+17
+
+--is_empty--
+Empty: False
+
+--remove--
+Queue after remove:
+3
+5
+7
+9
+11
+13
+15
+17
+
+--peek--
+Queue after peek:
+3
+5
+7
+9
+11
+13
+15
+17
+
+--_move_front_to_rear--
+Target queue before _move_front_to_rear:
+1
+2
+3
+
+Queue after _move_front_to_rear:
+3
+5
+7
+9
+11
+13
+15
+17
+1
+
+--_append_queue--
+Enter values to append into queue-2, separated by commas: 1,2,3,4
+Queue after _append_queue:
+3
+5
+7
+9
+11
+13
+15
+17
+1
+1
+2
+3
+4
+
+--combine--
+Enter values to append into queue-2, separated by commas: 5,6,7,8
+Final queue after combine:
+3
+5
+5
+6
+7
+7
+9
+8
+11
+13
+15
+17
+1
+1
+2
+3
+4
+
+--split_alt--
+Target 2 before split_alt:
+1
+2
+3
+
+Target 1 after split_alt:
+
+Target 2 after split_alt:
+
+__eq__
+Enter values to append into queue-2, separated by commas: 1,2,3,4
+Equal: False
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Both Priority Queues below will be used for most tests.
+ 
+Enter a value to insert into Priority Queue 1, separated by spaces: 1 2 3 4 5 6  
+Enter a value to insert into Priority Queue 2, separated by spaces: 7 8 9 10 11 12
+
+--insert--
+ 
+Priority Queue 1:
+1
+2
+3
+4
+5
+6
+
+Priority Queue 2:
+7
+8
+9
+10
+11
+12
+
+--is_empty--
+Priority Queue 1 is empty: False
+
+--remove--
+Priority Queue 1 after removing 1:
+2
+3
+4
+5
+6
+
+--peek--
+Priority Queue 1 after peeking: 2
+2
+3
+4
+5
+6
+
+--split_alt--
+Target 1:
+2
+4
+6
+
+Target 2:
+3
+5
+
+--split_key--
+Enter a key to split Priority Queue 1 by: 3
+Target 1:
+
+Target 2:
+
+--combine--
+Target after combine:
+7
+8
+9
+10
+11
+12
+
+--_append_queue--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 1 2 3 4 5  
+Enter a value to insert into Priority Queue 2, separated by spaces: 6 7 8 9 10
+
+Priority Queue 2 after appending Priority Queue 1:
+6
+7
+8
+9
+10
+1
+2
+3
+4
+5
+
+--_move_front_to_rear--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 1 2 3 4 5  
+Enter a value to insert into Priority Queue 2, separated by spaces: 6 7 8 9 10
+
+Priority Queue 1 before moving front to rear:
+1
+2
+3
+4
+5
+Priority Queue 1 after moving front to rear:
+1
+2
+3
+4
+5
+6
+
+Both Priority Queues below will be used for most tests.
+ 
+Enter a value to insert into Priority Queue 1, separated by spaces: 2 4 6 8 10 12
+Enter a value to insert into Priority Queue 2, separated by spaces: 1 3 5 7 9 11
+
+--insert--
+ 
+Priority Queue 1:
+2
+4
+6
+8
+10
+12
+ 
+Priority Queue 2:
+1
+3
+5
+7
+9
+11
+ 
+--is_empty--
+Priority Queue 1 is empty: False
+
+--remove--
+Priority Queue 1 after removing 2:
+4
+6
+8
+10
+12
+
+--peek--
+Priority Queue 1 after peeking: 4
+4
+6
+8
+10
+12
+
+--split_alt--
+Target 1:
+4
+8
+12
+
+Target 2:
+6
+10
+
+--split_key--
+Enter a key to split Priority Queue 1 by: 2    
+Target 1:
+
+Target 2:
+
+--combine--
+Target after combine:
+1
+3
+5
+7
+9
+11
+
+--_append_queue--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 2 4 6 8 10
+Enter a value to insert into Priority Queue 2, separated by spaces: 1 3 5 7 9
+
+Priority Queue 2 after appending Priority Queue 1:
+1
+3
+5
+7
+9
+2
+4
+6
+8
+10
+
+--_move_front_to_rear--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 2 4 6 8 10
+Enter a value to insert into Priority Queue 2, separated by spaces: 1 3 5 7 9
+
+Priority Queue 1 before moving front to rear:
+2
+4
+6
+8
+10
+Priority Queue 1 after moving front to rear:
+2
+4
+6
+8
+10
+1
+
+Both Priority Queues below will be used for most tests.
+ 
+Enter a value to insert into Priority Queue 1, separated by spaces: 4 8 12 16 20 24 28 32 36 
+Enter a value to insert into Priority Queue 2, separated by spaces: 5 10 15 20 25 30 35 40 45
+
+--insert--
+ 
+Priority Queue 1:
+4
+8
+12
+16
+20
+24
+28
+32
+36
+ 
+Priority Queue 2:
+5
+10
+15
+20
+25
+30
+35
+40
+45
+
+--is_empty--
+Priority Queue 1 is empty: False
+
+--remove--
+Priority Queue 1 after removing 4:
+8
+12
+16
+20
+24
+28
+32
+36
+
+--peek--
+Priority Queue 1 after peeking: 8
+8
+12
+16
+20
+24
+28
+32
+36
+
+--split_alt--
+Target 1:
+8
+16
+24
+32
+
+Target 2:
+12
+20
+28
+36
+
+--split_key--
+Enter a key to split Priority Queue 1 by: 4
+Target 1:
+
+Target 2:
+
+--combine--
+Target after combine:
+5
+10
+15
+20
+25
+30
+35
+40
+45
+
+--_append_queue--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 4 8 12 16
+Enter a value to insert into Priority Queue 2, separated by spaces: 5 10 15 20
+
+Priority Queue 2 after appending Priority Queue 1:
+5
+10
+15
+20
+4
+8
+12
+16
+
+--_move_front_to_rear--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 4 8 12 16
+Enter a value to insert into Priority Queue 2, separated by spaces: 5 10 15 20
+
+Priority Queue 1 before moving front to rear:
+4
+8
+12
+16
+Priority Queue 1 after moving front to rear:
+4
+8
+12
+16
+5
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a value to insert into initial Deque, separated by spaces. This will be used for most tests: 10 9 8 7 6 5 4 3 2 1
+Initial Deque:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ 
+--insert_front--
+Enter a value to insert into Deque1, separated by spaces: 1 2 3 4 5 6 7 8 9 10
+Deque1:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+--insert_rear--
+Enter a value to insert into Deque2, separated by spaces: 2 4 6 8 10 12 14 16 18 20
+Deque2:
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+--is_empty--
+Initial Deque is empty: False
+
+--remove_front--
+Removing front value: 1
+Initial Deque after remove_front:
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+--remove_rear--
+Removing rear value: 10
+Initial Deque after remove_rear:
+2
+3
+4
+5
+6
+7
+8
+9
+
+--peek_front--
+Peeking front value: 2
+Initial Deque after peek_front:
+2
+3
+4
+5
+6
+7
+8
+9
+
+--peek_rear--
+Peeking rear value: 9
+Initial Deque after peek_rear:
+2
+3
+4
+5
+6
+7
+8
+9
+
+--_swap--
+Initial Deque after _swap:
+2
+8
+4
+5
+6
+7
+3
+9
+
+Enter a value to insert into initial Deque, separated by spaces. This will be used for most tests: 3 6 9 12 15 18 21 24 27 30
+Initial Deque:
+30
+27
+24
+21
+18
+15
+12
+9
+6
+3
+ 
+--insert_front--
+Enter a value to insert into Deque1, separated by spaces: 10 20 30 40 50 60 70 80 90
+Deque1:
+90
+80
+70
+60
+50
+40
+30
+20
+10
+
+--insert_rear--
+Enter a value to insert into Deque2, separated by spaces: 1 2 3 4 5 6 7 8 9 10
+Deque2:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+--is_empty--
+Initial Deque is empty: False
+
+--remove_front--
+Removing front value: 30
+Initial Deque after remove_front:
+27
+24
+21
+18
+15
+12
+9
+6
+3
+
+--remove_rear--
+Removing rear value: 3
+Initial Deque after remove_rear:
+27
+24
+21
+18
+15
+12
+9
+6
+
+--peek_front--
+Peeking front value: 27
+Initial Deque after peek_front:
+27
+24
+21
+18
+15
+12
+9
+6
+
+--peek_rear--
+Peeking rear value: 6
+Initial Deque after peek_rear:
+27
+24
+21
+18
+15
+12
+9
+6
+
+--_swap--
+Initial Deque after _swap:
+27
+9
+21
+18
+15
+12
+24
+6
+
+Enter a value to insert into initial Deque, separated by spaces. This will be used for most tests: 1 2 3 4 5 6 7 8 9 10
+Initial Deque:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+ 
+--insert_front--
+Enter a value to insert into Deque1, separated by spaces: 1 3 5 7 9 11
+Deque1:
+11
+9
+7
+5
+3
+1
+ 
+--insert_rear--
+Enter a value to insert into Deque2, separated by spaces: 2 4 6 8 10
+Deque2:
+2
+4
+6
+8
+10
+
+--is_empty--
+Initial Deque is empty: False
+
+--remove_front--
+Removing front value: 10
+Initial Deque after remove_front:
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+--remove_rear--
+Removing rear value: 1
+Initial Deque after remove_rear:
+9
+8
+7
+6
+5
+4
+3
+2
+
+--peek_front--
+Peeking front value: 9
+Initial Deque after peek_front:
+9
+8
+7
+6
+5
+4
+3
+2
+
+--peek_rear--
+Peeking rear value: 2
+Initial Deque after peek_rear:
+9
+8
+7
+6
+5
+4
+3
+2
+
+--_swap--
+Initial Deque after _swap:
+9
+3
+7
+6
+5
+4
+8
+2
+-------------------------------------------------------

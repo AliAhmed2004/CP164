@@ -1,0 +1,141 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-14-01
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+romance, comedy, zombie, horror
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+3,4,5,8
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+Enter a genre number (ENTER to quit): 1
+Enter a genre number (ENTER to quit): 1
+Error: genre already chosen
+Enter a genre number (ENTER to quit): 0
+Enter a genre number (ENTER to quit): 
+[0, 1]
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+Title: Dark City
+Year of release: 1998
+Director: Alex Proyas
+Rating: 7.8
+Enter a genre number (ENTER to quit): 0
+Enter a genre number (ENTER to quit): 
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+Text: Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-------------------------------------------------------

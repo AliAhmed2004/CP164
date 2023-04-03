@@ -1,0 +1,35 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_a06\com.python.pydev.analysis\v2_indexcache
+t01|1678580951645750600|C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t01.py
+t03|1678577840809352900|C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t03.py
+t02|1678575565352342000|C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t02.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+6=t01
+2=t03
+4=t02
+1=C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t03.py
+3=C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t02.py
+5=C:\Users\mailm\eclipse\CP164\ahme8398_a06\src\t01.py
+-- END DICTIONARY
+-- START TREE 1
+13
+b|1|b!1^51#1*19@
+deq|3|Deque_init!1^15#1*19@Deque2!1^39#1*19@Deque1!1^28#1*19@
+emp|2|empty!3^45#1*35@empty!5^33#1*51@
+equ|1|equal!5^137#1*51@
+fin|1|final_queue!5^97#1*51@
+inp|5|input_1!3^22#1*35@input_deque2!1^41#1*19@input_2!3^26#1*35@input_1!1^18#1*19@input_deque1!1^30#1*19@
+key|1|key!3^85#1*35@
+nod|2|node2!1^90#1*19@node1!1^89#1*19@
+pri|2|Priority_Queue_2!3^20#1*35@Priority_Queue_1!3^19#1*35@
+que|2|queue2!5^79#1*51@queue!5^15#1*51@
+tar|5|target1!3^66#1*35@target!3^100#1*35@target2!5^108#1*51@target2!3^67#1*35@target!5^57#1*51@
+v|1|v!1^56#1*19@
+val|3|values!5^19#1*51@value!3^50#1*35@value!5^39#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,38 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_l10\com.python.pydev.analysis\v2_indexcache
+t01|1680216198101140000|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t01.py
+t03|1680215865465789500|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t03.py
+t02|1680215722457571400|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t02.py
+t04|1680316596152771900|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t04.py
+test_Sorts_array|1680212796262816800|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\test_Sorts_array.py
+test_Sorts_List_linked|1680311758694347500|C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\test_Sorts_List_linked.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+3=C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\test_Sorts_array.py
+8=t01
+1=C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\test_Sorts_List_linked.py
+6=t03
+4=test_Sorts_array
+10=t04
+5=C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t03.py
+7=C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t01.py
+9=C:\Users\mailm\eclipse\CP164\ahme8398_l10\src\t04.py
+2=test_Sorts_List_linked
+-- END DICTIONARY
+-- START TREE 1
+9
+cre|6|create_sorted!1^33#5*18@create_sorted!3^37#5*34@create_randoms!3^76#5*34@create_reversed!3^57#5*34@create_reversed!1^50#5*18@create_randoms!1^67#5*18@
+ran|2|random_list!5^17#1*51@random_arrays!7^17#1*67@
+rev|2|reversed_list!5^16#1*51@reversed_array!7^16#1*67@
+sep|1|SEP!9^20#1*83@
+siz|2|SIZE!1^20#1*19@SIZE!3^18#1*35@
+sor|5|sort_func!9^24#5*83@sorted_list!5^15#1*51@SORTS!1^30#1*19@sorted_array!7^15#1*67@SORTS!3^34#1*35@
+tes|4|test_sort!1^90#5*18@test_sort!3^97#5*34@TESTS!1^22#1*19@TESTS!3^20#1*35@
+tit|1|title!9^23#5*83@
+xra|2|XRANGE!1^21#1*19@XRANGE!3^19#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

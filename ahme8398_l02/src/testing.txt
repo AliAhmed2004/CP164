@@ -1,0 +1,280 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-01-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a list of values separated by commas: 1,3,4,5,7
+Stack:  [1, 3, 4, 5, 7]
+Empty source:  []
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Enter a list of values separated by commas: 7,4,2,7,8
+Stack:  []
+Target:  [7, 4, 2, 7, 8]
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Enter a list of values separated by commas: 1,2,3,4,5,6
+Is the stack empty?: False
+Is the stack empty?: False
+Popped value = 1
+Peeked value = 2
+Is the stack empty?: False
+Popped value = 2
+Peeked value = 3
+Is the stack empty?: False
+Popped value = 3
+Peeked value = 4
+Is the stack empty?: False
+Popped value = 4
+Peeked value = 5
+Is the stack empty?: False
+Popped value = 5
+Peeked value = 6
+Is the stack empty?: False
+Popped value = 6
+Error! You cannot pop an empty stack.
+Error! You cannot peek an empty stack.
+Stack:  []
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Is the stack empty?: False
+Is the stack empty?: False
+Popped value = Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+Peeked value = Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+Is the stack empty?: False
+Popped value = Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+Peeked value = Title:    Zulu
+Year:     1964
+Director: Cy Endfield
+Rating:   7.8
+Genres:   war
+Is the stack empty?: False
+Popped value = Title:    Zulu
+Year:     1964
+Director: Cy Endfield
+Rating:   7.8
+Genres:   war
+Peeked value = Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+Is the stack empty?: False
+Popped value = Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+Peeked value = Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action
+Is the stack empty?: False
+Popped value = Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action
+Peeked value = Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction
+Is the stack empty?: False
+Popped value = Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction
+Peeked value = Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+Is the stack empty?: False
+Popped value = Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+Peeked value = Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy
+Is the stack empty?: False
+Popped value = Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy
+Peeked value = Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy
+Is the stack empty?: False
+Popped value = Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy
+Peeked value = Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy
+Is the stack empty?: False
+Popped value = Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy
+Peeked value = Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy
+Is the stack empty?: False
+Popped value = Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy
+Peeked value = Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action
+Is the stack empty?: False
+Popped value = Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action
+Peeked value = Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror
+Is the stack empty?: False
+Popped value = Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror
+Peeked value = Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action
+Is the stack empty?: False
+Popped value = Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action
+Peeked value = Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy
+Is the stack empty?: False
+Popped value = Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy
+Peeked value = Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy
+Is the stack empty?: False
+Popped value = Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy
+Peeked value = Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror
+Is the stack empty?: False
+Popped value = Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror
+Peeked value = Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror
+Is the stack empty?: False
+Popped value = Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror
+Peeked value = Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama
+Is the stack empty?: False
+Popped value = Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama
+Peeked value = Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action
+Is the stack empty?: False
+Popped value = Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action
+Peeked value = Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama
+Is the stack empty?: False
+Popped value = Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama
+Error! You cannot pop an empty stack.
+Error! You cannot peek an empty stack.
+-------------------------------------------------------

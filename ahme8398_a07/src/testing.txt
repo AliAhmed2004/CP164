@@ -1,0 +1,222 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-03-18
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+--__eq__--
+False
+
+--__getitem__--
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+
+--append--
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+25
+
+--clean--
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+Broken Flowers|2005|Jim Jarmusch|7.2|3,4
+Darjeeling Limited, The|2007|Wes Anderson|7.1|4
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+Stardust|2007|Matthew Vaughn|7.7|1,4
+
+--combine--
+Zulu|2013|Jerome Salle|6.7|2
+Broken Flowers|2005|Jim Jarmusch|7.2|3,4
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Darjeeling Limited, The|2007|Wes Anderson|7.1|4
+Z|1969|Costa-Gavras|8.2|2
+Juno|2007|Jason Reitman|7.7|3,4
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Stardust|2007|Matthew Vaughn|7.7|1,4
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Alphaville|1965|Jean-Luc Godard|7.1|0,4
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Last Man On Earth, The|1964|Ubaldo Ragona|6.9|0
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Omega Man, The|1971|Boris Sagal|6.6|0,6
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Zulu|1964|Cy Endfield|7.8|9
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+Dark City|1998|Alex Proyas|7.8|0
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+
+--intersection--
+
+--remove_front--
+Initial list
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+After using remove_front
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+--remove_many--
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+
+--split--
+Target 1:
+Zulu|2013|Jerome Salle|6.7|2
+Wonder Woman|2017|Patty Jenkins|8.1|1,6
+Z|1969|Costa-Gavras|8.2|2
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+
+Target 2:
+Finding Dory|2016|Andrew Stanton, Angus MacLane|7.5|4
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Jason and the Argonauts|1963|Don Chaffey|7.4|1,6
+Horror of Dracula|1958|Terence Fisher|7.4|8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+
+--split_alt--
+Target 1:
+Zulu|2013|Jerome Salle|6.7|2
+Z|1969|Costa-Gavras|8.2|2
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Wrong Box, The|1966|Bryan Forbes|7.0|4
+Juno|2007|Jason Reitman|7.7|3,4
+Stardust|2007|Matthew Vaughn|7.7|1,4
+Alphaville|1965|Jean-Luc Godard|7.1|0,4
+Last Man On Earth, The|1964|Ubaldo Ragona|6.9|0
+Omega Man, The|1971|Boris Sagal|6.6|0,6
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+Zulu|1964|Cy Endfield|7.8|9
+Dark City|1998|Alex Proyas|7.8|0
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+--insert--
+Movie list after inserting objects: 
+Dark City|1998|Alex Proyas|7.8|0
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+Zulu|1964|Cy Endfield|7.8|9
+ 
+--__eq__--
+False
+ 
+--getitem--
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+ 
+--clean--
+Dark City|1998|Alex Proyas|7.8|0
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+Zulu|1964|Cy Endfield|7.8|9
+ 
+--intersection--
+Dark City|1998|Alex Proyas|7.8|0
+ 
+--union--
+Darjeeling Limited, The|2007|Wes Anderson|7.1|4
+Dark City|1998|Alex Proyas|7.8|0
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+Star Wars: Episode IV - A New Hope|1977|George Lucas|8.7|0,6
+Zulu|1964|Cy Endfield|7.8|9
+
+--__contains__--
+True
+
+--remove_front--
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+I Am Legend|2007|Francis Lawrence|7.1|0,6
+Zulu|1964|Cy Endfield|7.8|9
+
+--remove--
+Removed object:  I Am Legend|2007|Francis Lawrence|7.1|0,6
+
+--count--
+2
+
+--find--
+None
+
+--index--
+4
+
+--max--
+Z|1969|Costa-Gavras|8.2|2
+
+--min--
+Dark City|1998|Alex Proyas|7.8|0
+
+--peek--
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+
+--remove--
+Z|1969|Costa-Gavras|8.2|2
+
+List after removing:
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Zulu|2013|Jerome Salle|6.7|2
+Z|1969|Costa-Gavras|8.2|2
+Z|1969|Costa-Gavras|8.2|2
+
+--_linear_search--
+Movie List:
+Dellamorte Dellamore|1994|Michele Soavi|7.2|3,4,5,8
+Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The|1964|Ray Dennis Steckler|2.2|8
+Manos: The Hands of Fate|1966|Harold P. Warren|1.9|8
+Zulu|2013|Jerome Salle|6.7|2
+Z|1969|Costa-Gavras|8.2|2
+Z|1969|Costa-Gavras|8.2|2
+Z|1969|Costa-Gavras|8.2|2
+
+Key:  Z|1969|Costa-Gavras|8.2|2
+Search object:  (<Sorted_List_linked._SL_Node object at 0x000001B6E4E4DA10>, <Sorted_List_linked._SL_Node object at 0x000001B6E5B6AC10>, 4)
+-------------------------------------------------------

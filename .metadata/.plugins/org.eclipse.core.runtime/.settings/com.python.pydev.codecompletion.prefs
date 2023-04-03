@@ -1,0 +1,4 @@
+ADD_SPACE_AND_COLON_WHEN_NEEDED=true
+ADD_SPACE_WHEN_NEEDED=true
+FORCE_PY3K_PRINT_ON_PY2=true
+eclipse.preferences.version=1

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="2" failures="0" finished="true" name="Test Run: 0" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="C:/Users/mailm/eclipse/CP164/ahme8398_a08/src/t02.py" status="error" test="t02" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\_pydev_runfiles\pydev_runfiles.py", line 460, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\mailm\eclipse\CP164\ahme8398_a08\src\t02.py", line 29, in <module>
+    fv = open("gibbon.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'gibbon.txt'
+ERROR: Module: t02 could not be imported (file: C:/Users/mailm/eclipse/CP164/ahme8398_a08/src/t02.py).
+]]></stderr>
+    </test>
+    <test location="C:/Users/mailm/eclipse/CP164/ahme8398_a08/src/t03.py" status="error" test="t03" time="0">
+        <stdout/>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\_pydev_runfiles\pydev_runfiles.py", line 460, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\mailm\eclipse\CP164\ahme8398_a08\src\t03.py", line 24, in <module>
+    fv = open("gibbon.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'gibbon.txt'
+ERROR: Module: t03 could not be imported (file: C:/Users/mailm/eclipse/CP164/ahme8398_a08/src/t03.py).
+]]></stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="ahme8398_a08 src"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>

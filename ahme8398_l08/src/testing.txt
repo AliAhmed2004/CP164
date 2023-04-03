@@ -1,0 +1,87 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ali Ahmed
+ID:      169038398
+Email:   ahme8398@mylaurier.ca
+Version: 2023-03-17
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Testing ByLetter class.
+ 
+Enter the first letter: A
+Enter the morse code for the first letter: .-
+ 
+Enter the second letter: B
+Enter the morse code for the second letter: -..
+
+ByLetter object 1:  (A, .-)
+ByLetter object 2:  (B, -..)
+
+--__eq__--
+Are both ByLetter objects equal? False
+
+--__lt__--
+Does ByLetter object 1 come before ByLetter object 2? True
+Does ByLetter object 2 come before ByLetter object 1? False
+
+--__le__--
+Is ByLetter object 1 equal to or preceeding ByLetter object 2? True
+Is ByLetter object 2 equal to or preceeding ByLetter object 1? False
+
+--__str__--
+Formatted string of ByLetter object 1: (A, .-)
+Formatted string of ByLetter object 2: (B, -..)
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Testing ByCode class.
+
+Enter the first letter: A
+Enter the morse code for the first letter: .-
+
+Enter the second letter: B
+Enter the morse code for the second letter: -...
+
+ByCode object 1:  (.-, A)
+ByCode object 2:  (-..., B)
+
+--__eq__--
+Are both ByCode objects equal? False
+
+--__lt__--
+Does ByCode object 1 come before ByCode object 2? False
+Does ByCode object 2 come before ByCode object 1? True
+
+--__le__--
+Is ByCode object 1 equal to or preceeding ByCode object 2? False
+Is ByCode object 2 equal to or preceeding ByCode object 1? True
+
+--__str__--
+Formatted string of ByCode object 1: (.-, A)
+Formatted string of ByCode object 2: (-..., B)
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+(A, .-)
+(B, -...)
+(C, -.-.)
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+(-.-., C)
+(-..., B)
+(.-, A)
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+.- -... -.-.
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+ABC
+-------------------------------------------------------

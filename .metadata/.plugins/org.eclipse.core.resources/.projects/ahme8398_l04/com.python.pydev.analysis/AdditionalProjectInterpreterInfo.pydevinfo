@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_l04\com.python.pydev.analysis\v2_indexcache
+functions|1679092925620057500|C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\functions.py
+t07|1676093613434593100|C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\t07.py
+t06|1675832503329226900|C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+3=C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\functions.py
+4=functions
+2=t07
+1=C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\t07.py
+5=C:\Users\mailm\eclipse\CP164\ahme8398_l04\src\t06.py
+6=t06
+-- END DICTIONARY
+-- START TREE 1
+8
+fv|1|fv!1^17#1*19@
+int|1|interest_data!3^2#5*34@
+lli|1|llist!5^17#1*51@
+lst|1|lst!1^23#1*19@
+mov|1|movies!1^19#1*19@
+sou|1|source!5^19#1*51@
+tar|1|target!5^35#1*51@
+val|1|values!5^23#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
