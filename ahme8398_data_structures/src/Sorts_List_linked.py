@@ -384,3 +384,31 @@ class Sorts:
             else:
                 equals._move_front_to_rear(source)
         return lesser, equals, greater
+
+    @staticmethod
+    def radix_sort(a):
+        """
+        -------------------------------------------------------
+        Performs a base 10 radix sort.
+        Use: radix_sort(a)
+        -------------------------------------------------------
+        Parameters:
+            a - a List of base 10 integers (List)
+        Returns:
+            None
+        -------------------------------------------------------
+        """
+        if a is None:
+            return
+
+        max_val = floor(log(max(a), 10) + 1)
+        lst_val = [List() for _ in range(10)]
+        
+        for digit in range(max_val):
+            while not a.is_empty():
+                current_num = a._front._value
+                current_digit = (current_num % (10 ** (digit + 1))) // (10 ** digit)
+                lst_val[current_digit]._move_front_to_rear(a)
+            for i in lst_val:
+                if not i.is_empty():
+                    a._append_list(i)     

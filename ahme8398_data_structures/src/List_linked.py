@@ -72,7 +72,7 @@ class List:
         -------------------------------------------------------
         """
         # your code here
-        return
+        return self._count
 
     def prepend(self, value):
         """
@@ -1087,7 +1087,16 @@ class List:
         -------------------------------------------------------
         """
         # your code here
-        return
+        target1 = List()
+        target2 = List()
+
+        while self._front is not None:
+
+            if self._front._value < key:
+                target1._move_front_to_rear(self)
+            else:
+                target2._move_front_to_rear(self)
+        return target1, target2
 
     def copy(self):
         """
@@ -1101,7 +1110,14 @@ class List:
         -------------------------------------------------------
         """
         # your code here
-        return
+        new_list = List()
+    
+        node = self._front
+        while node is not None:
+            new_list.append(node._value)
+            node = node._next
+        
+        return new_list
 
     def copy_r(self):
         """
@@ -1344,13 +1360,13 @@ class List:
 
             # Swap next pointers
             # lst._next, r._next = r._next, lst._next
-            temp = left._next
-            left._next = right._next
-            right._next = temp
+            temp = left._next #type: ignore
+            left._next = right._next #type: ignore
+            right._next = temp #type: ignore
             # Update the rear
-            if right._next is None:
+            if right._next is None: #type: ignore
                 self._rear = right
-            elif left._next is None:
+            elif left._next is None: #type: ignore
                 self._rear = left
         return
     
@@ -1366,13 +1382,17 @@ class List:
             None
         -------------------------------------------------------
         """
-        if not target.is_empty():
-            if self._front is None:
-                self._front = target._front
-            else:
-                self._rear._next = target._front
-            self._rear = target._rear
-            self._count += target._count
+        assert target._front is not None, "Cannot append to an empty list"
+
+        if self._rear is None:
+            self._front = target._front
+        else:
+            self._rear._next = target._front
+        self._rear = target._rear
+        self._count += target._count
+        target._front = None
+        target._rear = None
+        target._count = 0
         return
     
     def clear(self):

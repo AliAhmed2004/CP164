@@ -8,28 +8,28 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="append"/>
+		<item key="selection" value="Split"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="split"/>
+			<item value="split_key"/>
+			<item value="_append_list"/>
 			<item value="append"/>
 			<item value="is_valid"/>
 			<item value="remove"/>
 			<item value="__eq__"/>
 			<item value="capacity"/>
 			<item value="max"/>
-			<item value="split"/>
 			<item value="combine"/>
 			<item value="triangle"/>
 			<item value="find"/>
-			<item value="split_key"/>
 			<item value="split_alt"/>
 			<item value="peek"/>
 			<item value="dind"/>
-			<item value="count"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -620,9 +620,19 @@ class Sorted_List:
         """
 
         # your code here
-
-        return
-
+        target1 = Sorted_List()
+        target2 = Sorted_List()
+        left = True
+    
+        while self._front is not None:
+    
+            if left:
+                target1._move_front_to_rear(self)
+            else:
+                target2._move_front_to_rear(self)
+            left = not left
+        return target1, target2
+        
     def split(self):
         """
         -------------------------------------------------------
@@ -635,9 +645,51 @@ class Sorted_List:
             target2 - a new List with <= 50% of the original List (List)
         -------------------------------------------------------
         """
+        # your code here
+        node = self._front
+        middle = round(self._count/2+0.1)
+        count = 1
+        target1, target2 = Sorted_List(),Sorted_List()
+        while node is not None and count <= middle: 
+            node = node._next
+            target1._move_front_to_rear(self)
+            count += 1 
+        
+        while node is not None : 
+            node = node._next
+            target2._move_front_to_rear(self)
+        return target1, target2
+    
+    def _move_front_to_rear(self, source):
+        """
+        -------------------------------------------------------
+        Moves the front node from the source List to the rear
+        of the current List. Private helper method.
+        Use: self._move_front_to_rear(source)
+        -------------------------------------------------------
+        Parameters:
+            source - a non-empty linked List (List)
+        Returns:
+            The current List contains the old front of the source List and
+            its count is updated. The source List front and count are updated.
+        -------------------------------------------------------
+        """
+        assert source._front is not None, \
+            "Cannot move the front of an empty List"
 
         # your code here
-
+        temp = source._front
+        source._front = source._front._next
+        if source._front is None: 
+            source._rear = None
+        if self._rear is not None: 
+            self._rear._next = temp
+        else: 
+            self._front = temp
+        self._rear = temp
+        self._rear._next = None
+        self._count += 1
+        source._count -= 1
         return
 
     def __eq__(self, target):

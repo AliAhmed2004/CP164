@@ -321,13 +321,15 @@ class BST:
 
         # your code here
         if node is None:
-            return False
+            key = False
         elif node._value == key:
-            return True
+            key = True
         elif node._value > key:
-            return self._contains_aux(node._left, key)
+            key = self._contains_aux(node._left, key)
         else:
-            return self._contains_aux(node._right, key)
+            key = self._contains_aux(node._right, key)
+            
+        return key
 
 
     def height(self):

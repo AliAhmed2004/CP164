@@ -80,8 +80,9 @@ class Hash_Set:
             slot - list at the position of hash key in self._table
         -------------------------------------------------------
         """
-        # your code here
-        return
+        value = hash(key) % self._capacity
+        slot = self._table[value]
+        return slot
 
     def __contains__(self, key):
         """
@@ -96,7 +97,14 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        found = False
+        crypt = hash(key)
+        slot = crypt % self._capacity
+        if not self._table[slot].is_empty():
+            i = self._table[slot].index(key)
+            if i != -1:
+                found = True
+        return found
 
     def insert(self, value):
         """
@@ -142,7 +150,14 @@ class Hash_Set:
         -------------------------------------------------------
         """
         # your code here
-        return
+        value = None
+        crypt = hash(key)
+        slot = crypt % self._capacity
+        if not self._table[slot].is_empty():
+            i = self._table[slot].index(key)
+            if i != -1:
+                value = self._table[slot][i]
+        return value
 
     def remove(self, key):
         """
@@ -206,7 +221,18 @@ class Hash_Set:
         ---------------
         """
         # your code here
-        return
+        equals = False
+        if self._count == target._count:
+            equals = True
+            for i in range(self._capacity):
+                if len(self._table[i]) != len(target._table[i]):
+                    equals = False
+                    break
+                for j in range(len(self._table[i])):
+                    if self._table[i][j] != target._table[i][j]:
+                        equals = False
+                        break
+        return equals
 
     def debug(self):
         """

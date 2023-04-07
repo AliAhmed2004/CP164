@@ -711,3 +711,64 @@ class Sorts:
 
         a[i] = a[j]
         return
+
+    @staticmethod
+    def radix_sort(a):
+        """
+        -------------------------------------------------------
+        Performs a base 10 radix sort.
+        Use: Sorts.radix_sort(a)
+        -------------------------------------------------------
+        Parameters:
+            a - an array of base 10 integers (list)
+        Returns:
+            None
+        -------------------------------------------------------
+        """
+        max_value = max(a)
+        exp = 1
+        n = len(a)
+        b = [0] * n
+
+        while max_value // exp > 0:
+            # Counting sort for each digit.
+            c = [0] * 10
+
+            for i in range(n):
+                c[(a[i] // exp) % 10] += 1
+
+            for i in range(1, 10):
+                c[i] += c[i - 1]
+
+            for i in range(n - 1, -1, -1):
+                c[(a[i] // exp) % 10] -= 1
+                b[c[(a[i] // exp) % 10]] = a[i]
+
+            for i in range(n):
+                a[i] = b[i]
+
+            exp *= 10
+        return
+    
+    @staticmethod
+    def gnome_sort(a):
+        """
+        -------------------------------------------------------
+        Sorts an array using the Gnome Sort algorithm.
+        Use: gnome_sort(a)
+        -------------------------------------------------------
+        Parameters:
+            a - an array of comparable elements (list)
+        Returns:
+            None
+        -------------------------------------------------------
+        """
+        i = 0
+        n = len(a)
+        while i < n:
+            if i == 0 or a[i - 1] <= a[i]:
+                i += 1
+            else:
+                Sorts._swap(a, i, i - 1)
+                i -= 1
+        return
