@@ -731,7 +731,6 @@ class Sorts:
         b = [0] * n
 
         while max_value // exp > 0:
-            # Counting sort for each digit.
             c = [0] * 10
 
             for i in range(n):
