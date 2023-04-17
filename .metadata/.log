@@ -969,3 +969,936 @@ java.lang.RuntimeException: C:\Users\mailm\eclipse\eclipse\plugins\org.python.py
 	at org.python.pydev.core.pep8.Pep8Runner.runWithPep8BaseScript(Pep8Runner.java:106)
 	at com.python.pydev.analysis.pep8.Pep8Visitor.getMessages(Pep8Visitor.java:63)
 	at com.python.pydev.analysis.OccurrencesAnalyzer$1.run(OccurrencesAnalyzer.java:50)
+!SESSION 2023-04-17 12:06:07.960 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 567 2023-04-17 12:06:09.831
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-04-17 12:06:09.831
+!MESSAGE Could not read metadata for 'ahme8398_badzip'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/ahme8398_badzip)[567]: java.lang.Exception: The project description file (.project) for 'ahme8398_badzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:895)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:875)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:731)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2547)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-04-17 12:06:09.831
+!MESSAGE The project description file (.project) for 'ahme8398_badzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'ahme8398_badzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:895)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:875)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:731)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2547)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-17 12:06:18.566
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mailm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 12:06:21.985
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.redraw(CopiedOverviewRuler.java:826)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler$1.paintControl(MinimapOverviewRuler.java:445)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 12:06:21.985
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-04-17 12:07:45.235 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-17 12:07:52.431
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mailm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 12:07:53.216
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 12:07:53.218
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.redraw(CopiedOverviewRuler.java:826)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler$1.paintControl(MinimapOverviewRuler.java:445)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:08:39.401
+!MESSAGE Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.pylint.PyLintPreferences.getPyLintLocation(PyLintPreferences.java:87)
+	at com.python.pydev.analysis.pylint.PyLintVisitor.startVisit(PyLintVisitor.java:73)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:08:39.403
+!MESSAGE Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.mypy.MypyPreferences.getMypyLocation(MypyPreferences.java:66)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:67)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:08:39.404
+!MESSAGE Unable to find mypy. Project: ahme8398_a09
+!STACK 0
+java.lang.RuntimeException: Unable to find mypy. Project: ahme8398_a09
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:70)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:08:39.755
+!MESSAGE C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+!STACK 0
+java.lang.RuntimeException: C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.core.pep8.Pep8Runner.runWithPep8BaseScript(Pep8Runner.java:106)
+	at com.python.pydev.analysis.pep8.Pep8Visitor.getMessages(Pep8Visitor.java:63)
+	at com.python.pydev.analysis.OccurrencesAnalyzer$1.run(OccurrencesAnalyzer.java:50)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:09:59.085
+!MESSAGE Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.pylint.PyLintPreferences.getPyLintLocation(PyLintPreferences.java:87)
+	at com.python.pydev.analysis.pylint.PyLintVisitor.startVisit(PyLintVisitor.java:73)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:09:59.088
+!MESSAGE Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.mypy.MypyPreferences.getMypyLocation(MypyPreferences.java:66)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:67)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:09:59.089
+!MESSAGE Unable to find mypy. Project: ahme8398_data_structures
+!STACK 0
+java.lang.RuntimeException: Unable to find mypy. Project: ahme8398_data_structures
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:70)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:09:59.321
+!MESSAGE C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+!STACK 0
+java.lang.RuntimeException: C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.core.pep8.Pep8Runner.runWithPep8BaseScript(Pep8Runner.java:106)
+	at com.python.pydev.analysis.pep8.Pep8Visitor.getMessages(Pep8Visitor.java:63)
+	at com.python.pydev.analysis.OccurrencesAnalyzer$1.run(OccurrencesAnalyzer.java:50)
+!SESSION 2023-04-17 12:15:16.316 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-17 12:15:22.104
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mailm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:16:10.115
+!MESSAGE Info: Rebuilding internal caches: C:\Users\mailm\eclipse\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\ahme8398_badexamzip\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:16:16.364
+!MESSAGE Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.pylint.PyLintPreferences.getPyLintLocation(PyLintPreferences.java:87)
+	at com.python.pydev.analysis.pylint.PyLintVisitor.startVisit(PyLintVisitor.java:73)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:16:16.368
+!MESSAGE Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.mypy.MypyPreferences.getMypyLocation(MypyPreferences.java:66)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:67)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:16:16.369
+!MESSAGE Unable to find mypy. Project: ahme8398_badexamzip
+!STACK 0
+java.lang.RuntimeException: Unable to find mypy. Project: ahme8398_badexamzip
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:70)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 12:16:17.007
+!MESSAGE C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+!STACK 0
+java.lang.RuntimeException: C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.core.pep8.Pep8Runner.runWithPep8BaseScript(Pep8Runner.java:106)
+	at com.python.pydev.analysis.pep8.Pep8Visitor.getMessages(Pep8Visitor.java:63)
+	at com.python.pydev.analysis.OccurrencesAnalyzer$1.run(OccurrencesAnalyzer.java:50)
+!SESSION 2023-04-17 13:43:04.491 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  C:\Users\mailm\AppData\Local\Temp\Temp1_ahme8398_badexamzip.zip\ahme8398_badexamzip\src\Sorted_Set_linked.py
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\mailm\AppData\Local\Temp\Temp1_ahme8398_badexamzip.zip\ahme8398_badexamzip\src\Sorted_Set_linked.py
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-17 13:43:11.970
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mailm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 13:43:12.901
+!MESSAGE Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find pylint executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.pylint.PyLintPreferences.getPyLintLocation(PyLintPreferences.java:87)
+	at com.python.pydev.analysis.pylint.PyLintVisitor.startVisit(PyLintVisitor.java:73)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 13:43:14.002
+!MESSAGE Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+!STACK 0
+org.python.pydev.core.IInterpreterInfo$UnableToFindExecutableException: Unable to find mypy executable. Searched in:
+C:\Users\mailm\AppData\Local\Programs\Python\Python310, C:\Users\mailm\AppData\Local\Programs\Python\Python310\Scripts
+	at org.python.pydev.ast.interpreter_managers.InterpreterInfo.searchExecutableForInterpreter(InterpreterInfo.java:2069)
+	at com.python.pydev.analysis.mypy.MypyPreferences.getMypyLocation(MypyPreferences.java:66)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:67)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 13:43:14.003
+!MESSAGE Unable to find mypy. Project: ahme8398_badexamzip
+!STACK 0
+java.lang.RuntimeException: Unable to find mypy. Project: ahme8398_badexamzip
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at com.python.pydev.analysis.mypy.MypyVisitor.startVisit(MypyVisitor.java:70)
+	at com.python.pydev.analysis.additionalinfo.builders.AnalysisBuilderRunnable.doAnalysis(AnalysisBuilderRunnable.java:317)
+	at com.python.pydev.analysis.additionalinfo.builders.AbstractAnalysisBuilderRunnable.run(AbstractAnalysisBuilderRunnable.java:164)
+	at org.python.pydev.core.concurrency.RunnableAsJobsPoolThread$1.run(RunnableAsJobsPoolThread.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2023-04-17 13:43:14.687
+!MESSAGE C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+!STACK 0
+java.lang.RuntimeException: C:\Users\mailm\eclipse\eclipse\plugins\org.python.pydev.core_10.0.0.202210011257\pysrc\third_party\pep8\pycodestyle.py:113: FutureWarning: Possible nested set at position 1
+  EXTRANEOUS_WHITESPACE_REGEX = re.compile(r'[[({] | []}),;:]')
+
+	at org.python.pydev.core.log.Log.log(Log.java:33)
+	at org.python.pydev.core.pep8.Pep8Runner.runWithPep8BaseScript(Pep8Runner.java:106)
+	at com.python.pydev.analysis.pep8.Pep8Visitor.getMessages(Pep8Visitor.java:63)
+	at com.python.pydev.analysis.OccurrencesAnalyzer$1.run(OccurrencesAnalyzer.java:50)
+
+!ENTRY org.eclipse.oomph.ui 4 0 2023-04-17 13:43:17.644
+!MESSAGE java.lang.ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:121)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:216)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)
+	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
+	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.oomph.p2.core_1.23.0.v20220822-1127 [207]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1031)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:599)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:1061)
+	at org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:169)
+	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:112)
+	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:157)
+	... 6 more
+!SESSION 2023-04-17 13:44:12.883 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=19
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  C:\Users\mailm\AppData\Local\Temp\Temp1_ahme8398_e.zip\ahme8398_e\src\List_linked.py
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\mailm\AppData\Local\Temp\Temp1_ahme8398_e.zip\ahme8398_e\src\List_linked.py
+
+!ENTRY org.eclipse.core.resources 4 567 2023-04-17 13:44:14.863
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-04-17 13:44:14.863
+!MESSAGE Could not read metadata for 'ahme8398_badexamzip'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/ahme8398_badexamzip)[567]: java.lang.Exception: The project description file (.project) for 'ahme8398_badexamzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:895)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:875)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:731)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2547)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-04-17 13:44:14.863
+!MESSAGE The project description file (.project) for 'ahme8398_badexamzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for 'ahme8398_badexamzip' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:895)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:875)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:731)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2547)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2252)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:571)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:818)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:810)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1032)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:513)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:496)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-17 13:44:21.060
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mailm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 13:44:21.123
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 13:44:21.125
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.redraw(CopiedOverviewRuler.java:826)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler$1.paintControl(MinimapOverviewRuler.java:445)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1536)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.UpdateWindow(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setVisible(Decorations.java:1289)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2062)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1293)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.postProcess(WBWRenderer.java:739)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.ide 4 4 2023-04-17 13:45:24.961
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:195)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doPaint1(MinimapOverviewRuler.java:581)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.doubleBufferPaint(CopiedOverviewRuler.java:654)
+	at org.python.pydev.overview_ruler.MinimapOverviewRuler.doubleBufferPaint(MinimapOverviewRuler.java:473)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$3.paintControl(CopiedOverviewRuler.java:556)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4251)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Composite.java:1627)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4802)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.RedrawWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4589)
+	at org.eclipse.swt.widgets.Control.update(Control.java:4582)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler.redraw(CopiedOverviewRuler.java:826)
+	at org.python.pydev.overview_ruler.CopiedOverviewRuler$InternalListener.textChanged(CopiedOverviewRuler.java:89)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2789)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3409)
+	at org.eclipse.jface.text.TextViewer.initializeWidgetContents(TextViewer.java:3457)
+	at org.eclipse.jface.text.TextViewer.setVisibleDocument(TextViewer.java:3496)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.setVisibleDocument(ProjectionViewer.java:700)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.executeReplaceVisibleDocument(ProjectionViewer.java:755)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.replaceVisibleDocument(ProjectionViewer.java:743)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.reinitializeProjection(ProjectionViewer.java:1221)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.catchupWithProjectionAnnotationModel(ProjectionViewer.java:937)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.lambda$0(ProjectionViewer.java:891)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4043)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3648)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
